@@ -24,14 +24,19 @@ html {
   font-size: 1.8rem;
 }
 
+.heading-1--sub,
+.paragraph {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
 .heading-1--sub {
   margin-left: 1rem;
+  font-size: 1.7rem;
 }
 
 .paragraph {
   font-size: 1.5rem;
-  color: hsl(227, 10%, 46%);
-  font-weight: 400;
 }
 
 .container {
@@ -48,10 +53,6 @@ html {
   width: 80vw;
   background-color: hsl(185, 75%, 39%);
   padding: 15rem 0;
-  background-image: url("../images/bg-pattern-top.svg"),
-    url("../images/bg-pattern-bottom.svg");
-  background-repeat: no-repeat, no-repeat;
-  background-position: -50% 120%, 130% -50%;
   display: grid;
   place-items: center;
   grid-row-gap: 5rem;
@@ -74,13 +75,13 @@ html {
 }
 
 .profile-card__person-info {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .profile-card__person-stats {
   display: flex;
   justify-content: center;
-  padding: 3rem;
+  padding: 2rem;
   border-top: 0.8px solid rgba(150, 150, 150, 0.4);
 }
 
@@ -109,4 +110,15 @@ html {
   .profile-card__person-stats--item {
     padding-right: 5rem;
   }
+}
+
+/** Media queries */
+
+@media screen and (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 50em) {
 }
