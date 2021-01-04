@@ -86,7 +86,7 @@ html {
   background-color: #fff;
   border-radius: 1.1rem;
   text-align: center;
-}
+ }
 
 .profile-card__item {
   margin-top: -5rem;
@@ -158,6 +158,8 @@ html {
   .profile-card-container {
     width: 100vw;
     height: 100vh;
-    padding: 10rem 3rem;
+    padding: 10rem 0;
   }
+  .profile-card{
+     margin: 2rem;
 }
